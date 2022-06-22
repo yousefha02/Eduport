@@ -23,7 +23,7 @@ export default function Achieve()
                             info.map((box,index)=>
                             {
                                 return(
-                                    <div className='flex gap-[8px]'>
+                                    <div className='flex gap-[8px]' key={index+'az28'}>
                                         <BsFillPatchCheckFill className='text-[#0cbc87]'/>
                                         <p className='text-gray text-[15px] font-[500]'>{box}</p>
                                     </div>
@@ -47,7 +47,7 @@ export default function Achieve()
                         </div> 
                     </div>
                     <div>
-                        <Image src="/images/school/7.jpg" width="667px" height="1000px" 
+                        <Image src="/images/school/7.jpg" width="667px" height="1000px" alt='load' 
                         className='rounded-md'/>
                     </div>
                 </div>
