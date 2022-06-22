@@ -9,8 +9,10 @@ export default function Counter()
     {
         if(typeof window !=='undefined')
         {
-            if(window.scrollY > section.current.offsetTop-200)
-            setOn(true)
+            if(typeof section.current!=="undefined"){
+                if(window.scrollY > section.current.offsetTop-200)
+                setOn(true)
+            }
         }
     }
 

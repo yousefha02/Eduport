@@ -36,7 +36,7 @@ export default function Programs()
                                         <button style={{backgroundColor:box.btn_bg,color:box.btn_text}}
                                         className="text-[15px] rounded-md px-4 py-2 font-[500]">{box.btn}</button>
                                     </div>
-                                    <Image src={`/images/course/${box.image}`} width="314px" height="200px"/>
+                                    <Image src={`/images/course/${box.image}`} width="314px" height="200px" alt='load'/>
                                     </div>
                         })
                     }

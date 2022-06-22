@@ -67,9 +67,9 @@ export default function Pages(props)
                             {
                                 data.course&&
                                 <ul className='categ xl:absolute xl:w-[240px] rounded-lg relative w-full xl:bg-white smallScreen xl:left-[228px] top-0 flex flex-col p-4 pl-4'>
-                                <li className='navItem'>Course Categorial <span className='new'>New</span></li>
+                                <Link href="/page/categories"><li className='navItem'>Course Categorial <span className='new'>New</span></li></Link>
                                 <hr className='bg-[#9a9ea4] my-3 h-[1px] opacity-30'/>
-                                <li className='navItem'>Course Grid Classic</li>
+                                <Link href="/page/girdclassic"><li className='navItem'>Course Grid Classic</li></Link>
                                 <li className='navItem'>Course Grid Minmal</li>
                                 <hr className='bg-[#9a9ea4] my-3 h-[1px] opacity-30'/>
                                 <li className='navItem'>Course List Classic</li>

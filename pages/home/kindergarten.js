@@ -1,5 +1,5 @@
 import Head from "next/head"
-import Kinder from "../components/Demos/Kindergarten/Kinder"
+import Kinder from "../../components/Demos/Kindergarten/Kinder"
 export default function kindergarten()
 {
     return(

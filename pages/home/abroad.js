@@ -1,14 +1,14 @@
 import Head from 'next/head'
-import Univ from '../components/Demos/university/Univ'
+import Abroading from '../../components/Demos/abroad/Abroading'
 export default function University()
 {
     return(
         <>
         <Head>
-            <title>University Page</title>
+            <title>Abroad Page</title>
         </Head>
         <div>
-            <Univ/>
+            <Abroading/>
         </div>
         </>
     )

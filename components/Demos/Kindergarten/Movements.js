@@ -115,7 +115,7 @@ export default function Movements()
             src={box.image}/>
             <div onClick={() => showImage(box)} className=' cursor-pointer absolute group-hover:opacity-100 opacity-0 duration-300 top-[50%] left-[50%] group-hover:-translate-y-2/4 -translate-x-2/4 bg-black 
             text-[24px] px-[6px] z-[10] py-1 rounded-[6px] text-white -translate-y-1/4'>
-               <BiFullscreen/>
+            <BiFullscreen/>
             </div>
         </div>
     )

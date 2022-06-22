@@ -10,7 +10,7 @@ export default function Cookies()
         <motion.div initial={{x:'-100vw'}} animate={{x:0}} exit={{x:'-100vw',transition:{duration:.3}}} transition={{duration:.3}}
             className='px-4 fixed bottom-[20px] z-30 '>
             <div className='w-[240px] max-w-full shdw bg-white text-center p-5 rounded-md'>
-            <Image src="/images/education/27.svg" width="61px" height="50px"/>
+            <Image src="/images/education/27.svg" width="61px" height="50px" alt='load'/>
             <p className='text-[14px] my-3'>
             This website stores cookies on your computer. To find out more about the cookies we use, see our Privacy Policy
             </p>

@@ -43,7 +43,7 @@ export default function Company()
                     arr.map((box,index)=>
                     {
                         return(
-                            <SwiperSlide key={index+6000}><Image alt="wait" src={`/images/education/company/${box}`} width="205px" height="35px" className='grayscale	hover:grayscale-0 duration-300'/></SwiperSlide>
+                            <SwiperSlide key={index+6000}><Image alt="wait" src={`/images/education/company/${box}`} width="205px" height="35px" className='grayscale hover:grayscale-0 duration-300'/></SwiperSlide>
                         )
                     })
                 }

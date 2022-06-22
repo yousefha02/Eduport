@@ -49,7 +49,7 @@ export default function Navbar()
                     <Link href={'/'}><Image alt="wait" src={'/images/logo.svg'} width="140x" height="28px"/></Link>
                 </div>
 
-                <div className={`max-h-[550px] xl:overflow-visible overflow-auto xl:flex flex-grow justify-between xl:relative xl:top-0 xl:shadow-none shdw absolute w-full left-0 top-[72px] 
+                <div className={`max-h-[550px] xl:overflow-visible overflow-auto xl:flex flex-grow justify-between xl:relative xl:top-0 xl:shadow-none shdw absolute w-full left-0 top-[64px] 
                 py-3 xl:p-0 ${list?"block":'hidden'} bg-white `}>
                     <Categorial click={click} {...data}/>
                     <ul className=' xl:flex gap-6'>

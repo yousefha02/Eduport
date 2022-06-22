@@ -16,19 +16,18 @@ export default function Demos(props)
                 <div className='px-9 xl:px-0'>
                 <ul className='xl:absolute relative w-full xl:w-[240px] demos xl:bg-white smallScreen rounded-lg p-3'>
                 <Link href={'/'}><li className='navItem' onClick={()=>props.click('demos')}>Home Default</li></Link>
-                <Link href={'/education'}><li className='navItem' onClick={()=>props.click('demos')}>Home Education</li></Link>
-                <Link href={'/academy'}><li className='navItem' onClick={()=>props.click('demos')}>Home Academy</li></Link>
-                <Link href={'/course'}><li className='navItem' onClick={()=>props.click('demos')}>Home Course</li></Link>
-                <Link href={'/university'}><li className='navItem' onClick={()=>props.click('demos')}>Home University</li></Link>
-                <Link href={'/kindergarten'}><li className='navItem' onClick={()=>props.click('demos')}>Home Kindergarten</li></Link>
-                <Link href={'/tutor'}><li className='navItem' onClick={()=>props.click('demos')}>Home Tutor</li></Link>
-                <Link href={'/'}><li className='navItem' onClick={()=>props.click('demos')}>Home School <span className='new'>New</span></li></Link>
-                <Link href={'/'}><li className='navItem' onClick={()=>props.click('demos')}>Home Abroad <span className='new'>New</span></li></Link>
+                <Link href={'/home/education'}><li className='navItem' onClick={()=>props.click('demos')}>Home Education</li></Link>
+                <Link href={'/home/academy'}><li className='navItem' onClick={()=>props.click('demos')}>Home Academy</li></Link>
+                <Link href={'/home/course'}><li className='navItem' onClick={()=>props.click('demos')}>Home Course</li></Link>
+                <Link href={'/home/university'}><li className='navItem' onClick={()=>props.click('demos')}>Home University</li></Link>
+                <Link href={'/home/kindergarten'}><li className='navItem' onClick={()=>props.click('demos')}>Home Kindergarten</li></Link>
+                <Link href={'/home/tutor'}><li className='navItem' onClick={()=>props.click('demos')}>Home Tutor</li></Link>
+                <Link href={'/home/school'}><li className='navItem' onClick={()=>props.click('demos')}>Home School <span className='new'>New</span></li></Link>
+                <Link href={'/home/abroad'}><li className='navItem' onClick={()=>props.click('demos')}>Home Abroad <span className='new'>New</span></li></Link>
                 <hr className='bg-[#9a9ea4] mt-3 mb-2 h-[1px] opacity-30'/>
-                <Link href={'/'}><li className='navItem' onClick={()=>props.click('demos')}>Request a demo</li></Link>
-                <Link href={'/'}><li className='navItem' onClick={()=>props.click('demos')}>Book a Class</li></Link>
-                <Link href={'/'}><li className='navItem' onClick={()=>props.click('demos')}>Free Access</li></Link>
-                <Link href={'/'}><li className='navItem' onClick={()=>props.click('demos')}>Admission Form</li></Link>
+                <Link href={'/home/request'}><li className='navItem' onClick={()=>props.click('demos')}>Request a demo</li></Link>
+                <Link href={'/home/bookClass'}><li className='navItem' onClick={()=>props.click('demos')}>Book a Class</li></Link>
+                <Link href={'/home/access'}><li className='navItem' onClick={()=>props.click('demos')}>Free Access</li></Link>
                 </ul>
                 </div>
             }
